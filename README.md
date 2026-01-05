@@ -45,20 +45,22 @@ Query Result
 
 ---
 
-## 📦 Project Structure
+## 📂 Project Structure
 
+```text
 langgraph-fastapi-db/
 │
 ├── app/
-│ ├── agent/ # SQL agent logic
-│ ├── graph/ # LangGraph workflows
-│ ├── llm/ # Prompt & LLM configuration
-│ ├── db/ # Database connection & execution
-│ └── utils/ # Validators, helpers
+│   ├── agent/        # SQL agent logic
+│   ├── graph/        # LangGraph workflows
+│   ├── llm/          # Prompt & LLM configuration
+│   ├── db/           # Database connection & execution
+│   ├── utils/        # Validators, helpers
+│   └── main.py       # FastAPI entry point
 │
-├── main.py # FastAPI entry point
 ├── README.md
 └── pyproject.toml
+```
 
 
 ---
