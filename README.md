@@ -19,6 +19,8 @@ This project demonstrates how **LLMs can safely interact with structured data** 
 
 ## 🏗️ Architecture Overview
 
+```
+
 Frontend
 ↓
 FastAPI API
@@ -30,7 +32,7 @@ SQL Validation (Read-only)
 PostgreSQL Database
 ↓
 Query Result
-
+```
 
 ---
 
